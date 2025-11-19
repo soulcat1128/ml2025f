@@ -153,7 +153,9 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
+      本次作業針對心臟瓣膜進行推論，相較於上次的心臟模型辨識，這次的 Baseline 表現已相當優秀，導致優化難度顯著提升。
+
+實作過程中，雖然拉高 Epoch 是最直觀的提升方式，但 Colab 的不穩定性讓我必須更加謹慎地控制訓練時間。感謝老師提供的參考架構與難度調整，讓我在嘗試不同調整方式（儘管效果微妙）的過程中，沒有卡太久。這兩次的實戰經驗非常寶貴
     </div>
   </div>
 
@@ -169,22 +171,22 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>4</td>
           <td>Simple baseline - 描述</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
           <td id='m2'>4</td>
           <td>Medium baseline - 描述</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3" checked></td>
           <td id='m3'>2</td>
           <td>Strong baseline - 描述</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4"></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -196,13 +198,33 @@
   <!-- ------------------------------------------------>
   <div class="row hw12 bottomrow">
     <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+    Simple Baseline分數圖
+    </div>
+    <div class="col-md-12 twenty">
+      <img class="withborder" src="./simple.png" height="120"> 
     </div>
   </div>
 
   <!-- ------------------------------------------------>
+  <div class="row hw12 bottomrow">
+    <div class="col-md-12 twenty">
+    Medium Baseline分數圖 
+    </div>
+    <div class="col-md-12 twenty">
+      <img class="withborder" src="./medium.png" height="120"> 
+    </div>
+  </div>
+
+  <!-- ------------------------------------------------>
+  <div class="row hw12 bottomrow">
+    <div class="col-md-12 twenty">
+    Strong Baseline分數圖 
+    </div>
+    <div class="col-md-12 twenty">
+      <img class="withborder" src="./strong.png" height="120"> 
+    </div>
+  </div>
+
 
   <!-- ------------------------------------------------>
 
